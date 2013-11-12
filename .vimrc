@@ -42,6 +42,7 @@ map <leader>s :wa \| tabdo so ~/.vimrc<cr>
 
 nmap <leader>w :w <cr>
 imap <leader>w <Esc>:w <cr>a
+imap ii <Esc>
 map <leader>n oj
 nnoremap <Space> :exec "normal i".nr2char(getchar())."\e"<CR>
 
